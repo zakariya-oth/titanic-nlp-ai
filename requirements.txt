@@ -1,0 +1,9 @@
+# titanic-nlp-ai/requirements.txt
+pandas
+scikit-learn
+spacy
+gradio
+numpy
+# joblib # Only if you decided to use joblib instead of pickle for model saving/loading
+# You also need the spacy model: en_core_web_sm
+# Install it via: python -m spacy download en_core_web_sm
